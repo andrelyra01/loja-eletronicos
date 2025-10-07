@@ -1,0 +1,25 @@
+.container-phone  {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.container-phone:hover {
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+div.item-phone {
+  border: 1px solid rgb(214, 213, 213);
+  border-radius: 4px;
+  
+}
+
+
+div.price-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+

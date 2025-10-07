@@ -1,0 +1,55 @@
+
+.card-iphone-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+  
+}
+
+.container-card-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+  
+   
+}
+
+.container-card-phone img {
+   
+    width: 100%;
+     height: 800px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+   
+ 
+}
+
+@media (max-width:400px) {
+
+    .container-card-phone {
+        width: 100%;
+        height: 600px;
+    }
+
+    .card-iphone-logo {
+        width: 100%;
+        height: 400px;
+    }
+
+    .container-card-phone img {
+        
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-size: cover;
+    
+    }
+
+    
+}

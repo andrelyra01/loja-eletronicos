@@ -1,0 +1,144 @@
+
+.container-macs {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   align-items: center;
+   align-self: center;
+   width: 100%;
+  
+   gap: 20px;
+}
+
+.macs-title {
+    visibility: hidden;
+}
+
+.title-macs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.macbook-container img {
+ width: 100%;
+
+    
+}
+
+.preco {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-self: center;
+   gap: 10px;
+
+}
+
+.preco h1  {
+    margin-left: -20px;
+    color: #112266;
+}
+
+.preco p {
+    margin-left: -20px;
+}
+
+.btn {
+
+    width: 300px;
+   
+
+}
+
+
+@media (max-width:1407px) {
+    .container-macs {
+       grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        align-self: center;
+        
+      
+      
+    }
+
+    .macbook-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         margin: 0 auto;
+    }
+
+     .macbook-container img {
+       
+        width: 100%;
+    }
+
+    .container-macs .title-macs {
+       
+        text-align: center;
+    }
+
+  
+}
+
+@media (max-width:1049px) {
+    .container-macs {
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        align-self: center;
+       
+        
+    }
+
+    .macbook-container img {
+        width: 100%;
+    }
+
+  
+}
+@media (max-width:800px) {
+    .container-macs {
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        align-self: center;
+       
+    }
+
+    .macbook-container img {
+        width: 100%;
+    }
+
+   
+}
+
+@media (max-width:400px) {
+
+   
+   
+
+     .macbook-container img {
+        
+        width: 95%;
+    }
+
+    .preco {
+        text-align: center;
+    }
+
+    .preco h1 {
+        font-size: 25px;
+    }
+
+    .preco p {
+        font-size: 18px;
+    }
+}
+
+

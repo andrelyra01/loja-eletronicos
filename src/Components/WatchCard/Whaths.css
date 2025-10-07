@@ -1,0 +1,22 @@
+.container-watch {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+   align-self: center;
+   width: 100%;
+   
+ 
+    
+}
+
+.container-watch .sede-whatc {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+}
+
